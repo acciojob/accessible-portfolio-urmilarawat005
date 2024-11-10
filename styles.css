@@ -1,2 +1,38 @@
 
 /* Your CSS Code here. */
+body {
+	text-align:center;
+	background-color: wheat;
+	
+}
+li a{
+	text-decoration:none;
+	display:block;
+
+}
+li{
+		list-style:none;
+	  text-decoration: none;
+  margin-right: 50px;
+  display: inline-block;
+	
+	
+}
+#green{
+	background-color:lightgreen
+}
+p{
+	background-color:lightyellow
+}
+#color{
+	background-color:lightgrey;
+	padding:2px;
+	text-align: center
+}
+#new li{
+	display:flex;
+	/* text-align:center */\
+	align-items:center;
+	margin:20px
+	
+}
