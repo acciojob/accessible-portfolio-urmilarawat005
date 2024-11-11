@@ -22,17 +22,25 @@ li{
 	background-color:lightgreen
 }
 p{
-	background-color:lightyellow
+	background-color:lightyellow;
+	padding:8px;
+	margin:9px
 }
 #color{
 	background-color:lightgrey;
 	padding:2px;
 	text-align: center
 }
-#new li{
+#new {
 	display:flex;
 	/* text-align:center */\
 	align-items:center;
 	margin:20px
+	}
+.navigation {
+	background-color:whitesmoke
 	
+	}
+h3{
+	margin:1px
 }
