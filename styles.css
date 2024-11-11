@@ -31,16 +31,18 @@ p{
 	padding:2px;
 	text-align: center
 }
-#new {
-	display:flex;
-	/* text-align:center */\
-	align-items:center;
-	margin:20px
-	}
-.navigation {
+
+nav{
 	background-color:whitesmoke
 	
 	}
 h3{
 	margin:1px
 }
+
+ul list{
+	text-align:center
+}
+
+
+
