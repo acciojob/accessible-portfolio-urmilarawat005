@@ -7,29 +7,35 @@
 </head>
 
 <body>
-	<nav role="navigation">
-    <ul>
-        <li><a href="/home">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
-    </ul>
-</nav>
-	<h1>Welcome to my profile</h1>
+	  <header role="banner">
+        <h1 role="heading">My Accessible Portfolio</h1>
+    </header>
 
-<img src="https://preview.redd.it/urmila-wekar-v0-zddvh096nrzb1.png?width=640&crop=smart&auto=webp&s=fdd01b1ff1978c5f13eb9ac6dfb2ffd313c4050d" alt="image description" role="img" width=40%>	
-	<h3>Urmila Rawat</h3>
-	<p>Highly motivated full-stack web developer with expertise in <br>HTML, CSS, JavaScript, and React.</p>
-	<section id="color">
-		<h2>Project</h2>
-		
-		<ul role="list">
-    <li role="listitem"><b>Project 1</b>: Accessible<br> Website1</li>
-    <li role="listitem"><b>Project2</b>: <br> Mobile App Development</li>
-    <li role="listitem"><b>Project 3</b>:<br> Machine Learning Model</li>
-</ul>
+    <!-- Navigation -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-	</section>
-	
+    <!-- Image Section -->
+    <section id="about" role="region" aria-labelledby="about">
+        <h2 role="heading" id="about">About Me</h2>
+        <img src="https://preview.redd.it/urmila-wekar-v0-zddvh096nrzb1.png?width=640&crop=smart&auto=webp&s=fdd01b1ff1978c5f13eb9ac6dfb2ffd313c4050d" alt="Portrait of the portfolio owner" role="img" width=30%>
+        <p>I am a web developer with a passion for creating accessible and user-friendly websites.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" role="region" aria-labelledby="projects">
+        <h2 role="heading" id="projects">My Projects</h2>
+        <ul role="list">
+            <li role="listitem">Accessible Web App</li>
+            <li role="listitem">E-commerce Website</li>
+            <li role="listitem">Blogging Platform</li>
+        </ul>
+    </section>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
